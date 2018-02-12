@@ -2,6 +2,8 @@
   "name": "simulation-3",
   "version": "0.1.0",
   "private": true,
+  "main": "./server/index",
+  "proxy": "http://localhost:3030",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
